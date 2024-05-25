@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/avg">
+<head>
+    <title>MathML Magic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        /* Stil pentru titlul MathML */
+        h1 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #4CAF50;
+            margin-top: 30px;
+        }
+
+        /* Stil pentru svg-ul cu formele */
+        svg {
+            
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Stil pentru link-ul de întoarcere */
+        a {
+            display: block;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            color: #007bff;
+            text-decoration: none;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+        <!-- Fundal -->
+        <rect x="0" y="0" width="300" height="400" fill="#f0e6d2" />
+        
+        <!-- corp turn -->
+        <rect x="100" y="50" width="100" height="300" fill="#d9b38c" />
+        
+        <!-- acoperis -->
+        <polygon points="50,50 150,20 250,50" fill="#986928" />
+        
+        <!-- ferestre -->
+        <rect x="120" y="120" width="60" height="60" fill="#b3e0ff" />
+        <rect x="120" y="200" width="60" height="60" fill="#b3e0ff" />
+        
+        <!-- usa -->
+        <rect x="140" y="300" width="20" height="50" fill="#b3865a" />
+        
+        <!-- fereastra turn -->
+        <circle cx="150" cy="50" r="20" fill="#b3e0ff" />
+        <!-- fereastra acoperis -->
+        <circle cx="150" cy="20" r="8" fill="#f0e6d2" />
+        <circle cx="200" cy="20" r="8" fill="#f0e6d2" />
+        <circle cx="100" cy="20" r="8" fill="#f0e6d2" />
+    </svg>
+    
+    <math display="block">
+        <mstyle mathsize="1.5em"> 
+            <munder>
+                <mo>&#x2211;</mo> 
+                <mrow>
+                    <mi>n</mi> 
+                    <mo>=</mo> 
+                    <mn>1</mn> 
+                </mrow>
+            </munder>
+            <msup>
+                <mrow>
+                    <mi>e</mi> 
+                    <mrow>
+                        <mi>x</mi> 
+                        <mo>&#x2212;</mo> 
+                        <mi>n</mi> 
+                    </mrow>
+                </mrow>
+                <mi>n</mi>
+            </msup>
+        </mstyle>
+    </math>
+    
+    <a href="index.php">Inapoi acasa</a>
+</body>
+</html>

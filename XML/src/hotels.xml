@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hotels.xsl"?>
+<hotels>
+  <hotel id="1">
+    <nume>Traian</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>3</camere_libere>
+    <stele>4</stele>
+    <pret_pe_noapte>275</pret_pe_noapte>
+    <imagine>images/6650fe99e5b664.39380058.jpg</imagine>
+  </hotel>
+  <hotel id="2">
+    <nume>Astoria</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>2</camere_libere>
+    <stele>3</stele>
+    <pret_pe_noapte>235</pret_pe_noapte>
+    <imagine>images/66510015e15dd8.65074351.jpg</imagine>
+  </hotel>
+  <hotel id="3">
+    <nume>Pleiada</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>2</camere_libere>
+    <stele>5</stele>
+    <pret_pe_noapte>530</pret_pe_noapte>
+    <imagine>images/66510918044050.78986551.jpg</imagine>
+  </hotel>
+  <hotel id="4">
+    <nume>International</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>1</camere_libere>
+    <stele>4</stele>
+    <pret_pe_noapte>320</pret_pe_noapte>
+    <imagine>images/6651182448f3f3.70356029.jpg</imagine>
+  </hotel>
+  <hotel id="5">
+    <nume>Capitol</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>2</camere_libere>
+    <stele>3</stele>
+    <pret_pe_noapte>180</pret_pe_noapte>
+    <imagine>images/665195d8ea6c77.72871011.jpg</imagine>
+  </hotel>
+  <hotel id="6">
+    <nume>Bellaria</nume>
+    <adresa>Iasi</adresa>
+    <camere_libere>5</camere_libere>
+    <stele>4</stele>
+    <pret_pe_noapte>406</pret_pe_noapte>
+    <imagine>images/6651a54657b936.73085769.jpg</imagine>
+  </hotel>
+</hotels>
